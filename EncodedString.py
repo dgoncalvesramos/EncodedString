@@ -37,3 +37,6 @@ s.send(message.encode())
 #Réception du flag
 response = s.recv(1000).decode()
 print(response)
+
+#Fermeture de la socket
+s.close()
